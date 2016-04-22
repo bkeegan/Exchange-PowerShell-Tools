@@ -10,4 +10,6 @@ Contains a colleciton of scripts and cmdlets to assist in Exchange server admini
 
 4. MailboxAccessAlerter.ps1 : Sends an alert when a mailbox is accessed by a different user than the one the mailbox is associated with. 
 
-5. Get-MailboxItemPerDay.ps1 : Calculates total amount of email items + deleted items and divides by age of inbox in days to calcuate average amount of emails (or mailbox items) received per day.
+5. Get-MailboxItemPerDay.ps1 : Calculates total amount of email items + deleted items and divides by age of inbox in days to calcuate average amount of emails (or mailbox items) received per day. 
+
+6. Get-ExchangeUserMailboxMismatch.ps1 : gets logon statistics where the user account accessing a mailbox does not match the user associated with it. 
