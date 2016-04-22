@@ -13,3 +13,6 @@ Contains a colleciton of scripts and cmdlets to assist in Exchange server admini
 5. **Get-MailboxItemPerDay.ps1** : Calculates total amount of email items + deleted items and divides by age of inbox in days to calcuate average amount of emails (or mailbox items) received per day. 
 
 6. **Get-ExchangeUserMailboxMismatch.ps1** : gets logon statistics where the user account accessing a mailbox does not match the user associated with it. 
+
+7. **Set-OWAPolicyByGroup.ps1** : Applies an OWA Policy to all members of a specified AD group. 
+
